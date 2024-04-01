@@ -14,7 +14,6 @@ void exercise_1(string s1) {
     }
     cout << s1.size() << endl;
     }
-}
 
 void exercise_2(string s1) {
   // TODO: YOUR CODE HERE
