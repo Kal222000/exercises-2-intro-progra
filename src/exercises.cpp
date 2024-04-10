@@ -76,7 +76,12 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-  // TODO: YOUR CODE HERE
+  int suma;
+  for(int i = 1; i <= n; i++) {
+      int auxiliar = pow (i, k);
+      suma += auxiliar;
+  }
+  cout << suma;
   return 0;
 }
 
