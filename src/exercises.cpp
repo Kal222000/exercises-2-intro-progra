@@ -22,7 +22,19 @@ void exercise_3(string s1) {
 }
 
 void exercise_4(int n) {
-  // TODO: YOUR CODE HERE
+  int auxiliar = 1;
+  while(n<0){
+      cout << "El numero es negativo. Intentelo de nuevo";
+      break;
+  }
+  while(n>14){
+      cout << "El numero es muy grande. Intentelo de nuevo";
+      break;
+  }
+  for(int i = 1; i<=n; i++){
+      auxiliar **= i;
+  }
+  cout << auxiliar;
 }
 
 void exercise_5(int n, int k) {
