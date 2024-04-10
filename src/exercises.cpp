@@ -77,7 +77,7 @@ void exercise_12() {
 
 long exercise_13(int n, int k) {
   int suma;
-  for(int i = 1; i <= n; i++) {
+  for(int i = 0; i <= n; i++) {
       int auxiliar = pow (i, k);
       suma += auxiliar;
   }
