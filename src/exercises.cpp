@@ -23,11 +23,10 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   int auxiliar = 1;
-  while(n<1){
+  if(n<1){
       cout << "El numero es negativo. Intentelo de nuevo";
-      break;
   }
-  while(n>14){
+  else if(n>14){
       cout << "El numero es muy grande. Intentelo de nuevo";
       break;
   }
