@@ -32,8 +32,7 @@ void exercise_4(int n) {
   for(int i = 1; i<=n; i++){
       auxiliar *= i;
   }
-  n = auxiliar;
-  cout << n;
+  cout << auxiliar;
 }
 
 void exercise_5(int n, int k) {
