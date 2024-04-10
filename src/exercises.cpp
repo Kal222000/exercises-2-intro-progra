@@ -45,7 +45,12 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-  // TODO: YOUR CODE HERE
+   for(int i = 1; i <= n; ++i) {
+       double potencia = pow (-1, (i + 1) );
+       double auxiliar = ( potencia / i);
+       double suma += auxiliar;
+   }
+   cout << suma;
 }
 
 void exercise_8(string s) {
