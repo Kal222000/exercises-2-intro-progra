@@ -32,7 +32,7 @@ void exercise_4(int n) {
       break;
   }
   for(int i = 1; i<=n; i++){
-      auxiliar **= i;
+      auxiliar *= i;
   }
   cout << auxiliar;
 }
