@@ -23,7 +23,7 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   int auxiliar = 1;
-  while(n<0){
+  while(n<1){
       cout << "El numero es negativo. Intentelo de nuevo";
       break;
   }
@@ -34,7 +34,8 @@ void exercise_4(int n) {
   for(int i = 1; i<=n; i++){
       auxiliar *= i;
   }
-  cout << auxiliar;
+  n = auxiliar;
+  cout << n;
 }
 
 void exercise_5(int n, int k) {
