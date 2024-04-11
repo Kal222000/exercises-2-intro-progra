@@ -51,7 +51,7 @@ void exercise_7(int n) {
        double auxiliar = ( potencia / i);
        suma += auxiliar;
    }
-   cout << suma;
+   cout << suma << endl;
 }
 
 void exercise_8(string s) {
@@ -81,7 +81,7 @@ long exercise_13(int n, int k) {
       int auxiliar = pow (i, k);
       suma += auxiliar;
   }
-  cout << suma;
+  cout << suma << endl;
   return 0;
 }
 
