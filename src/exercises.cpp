@@ -18,7 +18,15 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-  // TODO: YOUR CODE HERE
+    s1.resize(10);
+    for(int i = 0; i < s1.size(); i++) {
+        if(s1[i] == '0') {
+            cout << "No cake :(" << endl; 
+            break;
+        } else {
+            cout << "Om-nom-nom :P" << endl;
+        }
+    }
 }
 
 void exercise_4(int n) {
@@ -91,17 +99,7 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-  string letter = " ";
-  letter = to_string(n);
-  string reverse;
-  string yes = "Es palindrome";
-  string no = "No es palindrome";
-  for(int j = letter.size(); j >= 0; j--){
-      reverse += letter[j];
-  }
-  if (n = reverse){
-   return yes;
-  } else(return no);
+  
 }
 
 void exercise_15(int decimal) {
