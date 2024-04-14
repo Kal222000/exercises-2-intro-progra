@@ -23,13 +23,11 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   int auxiliar = 1;
-  if(n<1){
-      cout << "El numero es negativo." << endl;
-      cout << "Intentelo de nuevo"  << endl;
+  if(n<0){
+      cout << "El numero es negativo. Intentelo de nuevo" << endl;
   }
   else if(n>14){
-      cout << "El numero es muy grande." << endl;
-      cout << "Intentelo de nuevo"  << endl;
+      cout << "El numero es muy grande. Intentelo de nuevo" << endl;
   }
   for(int i = 1; i<=n; i++){
       auxiliar *= i;
