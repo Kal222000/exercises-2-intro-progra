@@ -30,11 +30,12 @@ void exercise_4(int n) {
   else if(n>14){
       cout << "El numero es muy grande. Intentelo de nuevo" << endl;
       cout << n << endl;
-  }
+  } else{
   for(int i = 1; i<=n; i++){
       auxiliar *= i;
   }
   cout << auxiliar << endl;
+  }
 }
 
 void exercise_5(int n, int k) {
