@@ -53,7 +53,12 @@ void exercise_7(int n) {
        double auxiliar = ( potencia / i);
        suma += auxiliar;
    }
-   cout << suma << endl;
+   if (suma<0){
+    cout << 0;
+   }
+   else{
+    cout << suma << endl;
+}
 }
 
 void exercise_8(string s) {
