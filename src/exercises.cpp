@@ -94,7 +94,7 @@ string exercise_14(int n) {
   string letter = " ";
   letter = to_string(n);
   string reverse;
-  for(j = n.size; j > 0; j--){
+  for(string j = n.size; j > 0; j--){
    reverse = n.size[j]
   }
   if (n = reverse){
