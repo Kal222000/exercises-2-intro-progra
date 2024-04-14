@@ -74,7 +74,7 @@ void exercise_8(string s) {
   string reverse;
     for(int i = 0; i < s.size(); i++){
         if(s[i] != ' '){
-            new_s += s[i];
+            word += s[i];
         }
     }
     for(int j = word.size() - 1 ; j >= 0; j--){
