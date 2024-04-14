@@ -70,8 +70,23 @@ void exercise_7(int n) {
 }
 
 void exercise_8(string s) {
-  // TODO: YOUR CODE HERE
-}
+  string word;
+  string reverse;
+    for(int i = 0; i < s.size(); i++){
+        if(s[i] != ' '){
+            new_s += s[i];
+        }
+    }
+    for(int j = word.size() - 1 ; j >= 0; j--){
+        reverse += word[j];
+    }
+    if(word == reverse){
+        cout << "YES" << endl;
+    }
+    else{
+        cout << "NO" << endl;
+    }
+} 
 
 void exercise_9(string s) {
   // TODO: YOUR CODE HERE
