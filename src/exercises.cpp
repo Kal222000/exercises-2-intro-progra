@@ -25,9 +25,11 @@ void exercise_4(int n) {
   int auxiliar = 1;
   if(n<0){
       cout << "El numero es negativo. Intentelo de nuevo" << endl;
+      cout << n << endl;
   }
   else if(n>14){
       cout << "El numero es muy grande. Intentelo de nuevo" << endl;
+      cout << n << endl;
   }
   for(int i = 1; i<=n; i++){
       auxiliar *= i;
