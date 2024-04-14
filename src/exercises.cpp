@@ -91,8 +91,15 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-  // TODO: YOUR CODE HERE
-  return "";
+  string letter = " ";
+  letter = to_string(n);
+  string reverse;
+  for(j = n.size; j > 0; j--){
+   reverse = n.size[j]
+  }
+  if (n = reverse){
+   return "Es palindrome";
+  } else(return "No es palindrome");
 }
 
 void exercise_15(int decimal) {
