@@ -82,13 +82,12 @@ void exercise_12() {
 }
 
 long exercise_13(int n, int k) {
-  int suma;
+  int suma = 0;
   for(int i = 0; i <= n; i++) {
       int auxiliar = pow (i, k);
       suma += auxiliar;
   }
-  cout << suma << endl;
-  return 0;
+  return suma;
 }
 
 string exercise_14(int n) {
