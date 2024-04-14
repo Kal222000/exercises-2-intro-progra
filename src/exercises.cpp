@@ -94,12 +94,14 @@ string exercise_14(int n) {
   string letter = " ";
   letter = to_string(n);
   string reverse;
-  for(string j = n.size; j > 0; j--){
-   reverse = n.size[j]
+  string yes = "Es palindrome";
+  string no = "No es palindrome";
+  for(int j = letter.size(); j >= 0; j--){
+      reverse += letter[j];
   }
   if (n = reverse){
-   return "Es palindrome";
-  } else(return "No es palindrome");
+   return yes;
+  } else(return no);
 }
 
 void exercise_15(int decimal) {
