@@ -19,12 +19,13 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
     s1.resize(10);
-    for(int i = 0; i < s1.size(); i++) {
+    for(int i = 0; i < s1.size()) {
         if(s1[i] == '0') {
             cout << "No cake :(" << endl; 
             break;
         } else {
             cout << "Om-nom-nom :P" << endl;
+            i++;
         }
     }
 }
