@@ -89,6 +89,7 @@ long exercise_13(int n, int k) {
       suma += auxiliar;
   }
   cout << suma << endl;
+  return 0;
 }
 
 string exercise_14(int n) {
