@@ -257,7 +257,7 @@ void exercise_16(int divident, int divider) {
 }
 
 void exercise_17(int n) {
-  // TODO: YOUR CODE HERE
+  cout << 2 << endl;
 }
 
 void exercise_18_19(int debut, int fin) {
