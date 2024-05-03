@@ -18,17 +18,20 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-s1.resize(10);
-    for(int i = 0; i <= s1.size() -1; i++){
-        if(s1[i] == '0'){
+string aux;
+    for(int j = 0; j <= s1.size() -1; ++j){
+        if(s1[j] == '1'){
+            aux += s1[j];
+        }
+    }
+    aux.resize(10);
+    for(int i = 0; i <= aux.size() -1; i++){
+        if(aux[i] == '0'){
             cout << "No cake :(" << endl;
             break;
         }
-    else if(s1[i] == '1'){
+    else if(aux[i] == '1'){
         cout << "Om-nom-nom :P" << endl;
-    }
-    else{
-      cout << "";
     }
     }
 }
