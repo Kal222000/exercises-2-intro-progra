@@ -115,7 +115,11 @@ void exercise_8(string s) {
 } 
 
 void exercise_9(string s) {
-  int f0 = 0;
+    if(s == ""){
+        cout << -2 << endl;
+    }
+    else{
+    int f0 = 0;
   int f1 = 0;
   int f2 = 0;
   string contador;
@@ -133,12 +137,36 @@ void exercise_9(string s) {
           else{
               cout << -2 << endl;
           }
+    }
 }
 
 int exercise_10(int a, int b) {
-  // TODO: YOUR CODE HERE
-  return 0;
-}
+  int divisor;
+  int result;
+  if(a == b){
+      return a;
+  }
+  else if(a > b){
+      divisor = a;
+      for(int i = divisor; i > 0; i--){
+          if(a%i == 0 && b%i == 0){
+              result = i;
+                break;
+          }
+      }
+  }
+  else if(b > a){
+      divisor = b;
+      for(int j = divisor; j > 0; j--){
+          if(a%j == 0 && b%j == 0){
+              result = j;
+              break;
+  }
+     }
+        }
+    cout << result;
+    return result;
+          }
 
 void exercise_11() {
   // TODO: YOUR CODE HERE
@@ -158,7 +186,17 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-  
+  strig x = to_string(n);
+  string reverse;
+  for(int i = 0; i <= x.size() -1; i++){
+      reverse += x[i];
+  }
+  if(reverse == x){
+      return "Es palindrome";
+  }
+  else if(reverse != x){
+      return "No es palindrome";
+  }
 }
 
 void exercise_15(int decimal) {
