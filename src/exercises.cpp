@@ -186,7 +186,7 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-  strig x = to_string(n);
+  string x = to_string(n);
   string reverse;
   for(int i = 0; i <= x.size() -1; i++){
       reverse += x[i];
