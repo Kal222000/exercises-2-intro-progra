@@ -20,7 +20,7 @@ void exercise_2(string s1) {
 void exercise_3(string s1) {
 string aux;
     for(int j = 0; j <= s1.size() -1; ++j){
-        if(s1[j] == '1'){
+        if(s1[j] == '1' || s1[j] == '0'){
             aux += s1[j];
         }
     }
