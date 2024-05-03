@@ -61,7 +61,22 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-  // TODO: YOUR CODE HERE
+  if(n <= 0){
+      return 0;
+  }
+  else{
+      float aux;
+      int suma = 0;
+      string n3;
+      string n2 = to_string(n);
+      for(int i = 0; i <= n2.size() -1; i++){
+          n3 += n2[i];
+          aux = stod(n3);
+          suma += aux;
+      }
+      cout << suma << endl;
+      return suma;
+  }
   return 0;
 }
 
@@ -100,7 +115,24 @@ void exercise_8(string s) {
 } 
 
 void exercise_9(string s) {
-  // TODO: YOUR CODE HERE
+  int f0 = 0;
+  int f1 = 0;
+  int f2 = 0;
+  string contador;
+  for(int i = 0; i <= s.size() -1; i++){
+      if(s[i] == 'f'){
+          contador += s[i];
+      }
+  }
+  if(contador.size() == 2){
+              cout << 3 << endl;
+          }
+          else if(contador.size() == 1){
+              cout << -1 << endl;
+          }
+          else{
+              cout << -2 << endl;
+          }
 }
 
 int exercise_10(int a, int b) {
