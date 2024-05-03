@@ -200,7 +200,33 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
-  // TODO: YOUR CODE HERE
+    string original;
+    if(decimal == 0){
+        cout << "0" << endl;
+    }
+    else if(decimal == 1){
+        cout << "1" << endl;
+    }
+    else{
+    int aux;
+    string result;
+    do{
+      aux = decimal/2;
+      if(aux%2 == 0){
+          result += '1';
+      }
+      else{
+          result += '0';
+          aux -= 1;
+      }
+    } while(aux != 0);
+    if(result[0] == '0'){
+        for(int z = 1; 1 <= result.size(); z++){
+            original += result[z];
+        }
+    }
+    cout << original << endl;
+  }
 }
 
 void exercise_16(int divident, int divider) {
