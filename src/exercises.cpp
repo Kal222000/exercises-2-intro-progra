@@ -204,30 +204,7 @@ void exercise_15(int decimal) {
 }
 
 void exercise_16(int divident, int divider) {
-    int cociente = 0;
-    int residuo;
-    if(divider == 0){
-        cout << "";
-    }
-    else if(divident == 0){
-        cout << 0 << " " << 0 << endl;
-    }
-    else if(divident%2 == 0){
-    do{
-    divident -= divider;
-    cociente += 1;
-    } while (divident != 0);
-    residuo = divident;
-    cout << cociente << " " << residuo << endl;
-    }
-    else if(divident%2 != 0){
-    do{
-    divident -= divider;
-    cociente += 1;
-    } while (divident != 1);
-    residuo = divident;
-    cout << cociente << " " << residuo << endl;
-    }
+
 }
 
 void exercise_17(int n) {
