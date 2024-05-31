@@ -83,7 +83,7 @@ int exercise_6(int n) {
       string n3;
       string n2 = to_string(n);
       for(int i = 0; i <= n2.size() -1; i++){
-          n3 += n2[i];
+          n3 = n2[i];
           aux = stod(n3) - '0';
           suma += aux;
       }
