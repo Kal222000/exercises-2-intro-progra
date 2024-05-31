@@ -14,7 +14,20 @@ void exercise_1(string s1) {
     }
 
 void exercise_2(string s1) {
-  // TODO: YOUR CODE HERE
+    string aux;
+  for(int i = 0; i < s1.size(); ++i){
+    if(i == s1.size - 1){
+        aux += s1[i];
+        cout << aux << endl;
+    }
+    else if(s1[i] != ' '){
+        aux += s1[i];
+    }
+    else if(s1[i] == ' '){
+        cout << "[" << aux << "]" << endl;
+        aux.clear();
+    }
+  }
 }
 
 void exercise_3(string s1) {
